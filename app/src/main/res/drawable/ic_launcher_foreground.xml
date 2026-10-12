@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Unclaimed tiles -->
+    <path
+        android:fillColor="@color/launcher_tile"
+        android:pathData="M57,32h14a4,4 0,0 1,4 4v14a4,4 0,0 1,-4 4h-14a4,4 0,0 1,-4 -4v-14a4,4 0,0 1,4 -4z" />
+    <path
+        android:fillColor="@color/launcher_tile"
+        android:pathData="M37,54h14a4,4 0,0 1,4 4v14a4,4 0,0 1,-4 4h-14a4,4 0,0 1,-4 -4v-14a4,4 0,0 1,4 -4z" />
+    <!-- Claimed pair -->
+    <path
+        android:fillColor="@color/launcher_claim"
+        android:pathData="M37,32h14a4,4 0,0 1,4 4v14a4,4 0,0 1,-4 4h-14a4,4 0,0 1,-4 -4v-14a4,4 0,0 1,4 -4z" />
+    <path
+        android:fillColor="@color/launcher_claim"
+        android:pathData="M57,54h14a4,4 0,0 1,4 4v14a4,4 0,0 1,-4 4h-14a4,4 0,0 1,-4 -4v-14a4,4 0,0 1,4 -4z" />
+    <path
+        android:strokeColor="@color/launcher_claim_ink"
+        android:strokeWidth="2.6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M39.5,43.5l3.5,3.5l6.5,-7" />
+    <path
+        android:strokeColor="@color/launcher_claim_ink"
+        android:strokeWidth="2.6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M59.5,65.5l3.5,3.5l6.5,-7" />
+</vector>
